@@ -1,0 +1,65 @@
+.main {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.main-layout {
+}
+.main-top-login {
+  height: 58px;
+
+  margin-top: 36px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.main-login-bt {
+  background-color: #f9fafa;
+  cursor: pointer;
+  margin: 0 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 13px;
+  font-size: 15px;
+  font-family: Pretendard-Regular;
+}
+.career-dashboard {
+  padding-bottom: 70px;
+}
+.career-dashboard-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+}
+.career-dashboard-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.career-dashboard-list li img {
+  height: 56px;
+  width: 56px;
+}
+.main-slide {
+  /* justify-content: center; */
+}
+.main-slide span {
+  display: flex;
+  font-size: 22px;
+  padding-bottom: 26px;
+}
+
+.maximum5-slide {
+}
+.maximum5-slide ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.maximum5-slide ul li img {
+  height: 167.5px;
+  width: 250px;
+  border-radius: 10px;
+}
