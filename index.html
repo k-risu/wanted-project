@@ -13,12 +13,17 @@
     <!-- 헤더 -->
     <header class="header">
       <div class="company-menu">
-        <div id="logo" class="left-company-nav">
-          <a href="#">
-            <button>원티드 로고</button>
-          </a>
+        <div class="left-company-nav">
+          <dir class="header-logo" id="logo">
+            <a href="#">
+              <img src="./images/svg/svg-image-1.svg" alt="원티드 로고" />
+            </a>
+          </dir>
           <ul class="career-menu">
-            <li>아채용</li>
+            <li>
+              <img src="./images/svg/svg-image-2.svg" alt="상단바 아이콘" />
+              &nbsp;채용
+            </li>
             <li>커리어</li>
             <li>소셜</li>
             <li>이력서</li>
@@ -27,9 +32,11 @@
           </ul>
         </div>
         <div class="right-user-menu">
-          <div>돋보기</div>
-          <button>회원가입/로그인</button>
-          <button>기업 서비스</button>
+          <span>
+            <img src="./images/svg/svg-image-4.svg" alt="돋보기" />
+          </span>
+          <button href="#" class="auth-form">회원가입/로그인</button>
+          <button href="#" class="company-services">기업 서비스</button>
         </div>
       </div>
     </header>
@@ -38,64 +45,112 @@
       <div class="main-layout">
         <div class="main-top-login">
           <button class="main-login-bt">
-            아이콘 로그인하면 연봉 정보, 이력서 샘플 등 유용한 정보를 얻을 수
-            있어요
+            <img
+              class="bear"
+              src="./images/Gommy_Expect_1.webp"
+              alt="눈반짝한 곰"
+            />
+            로그인하면 <span>&nbsp;연봉 정보, 이력서 샘플&nbsp;</span>
+            등 유용한 정보를 얻을 수 있어요.
+            <img
+              class="right-angle-bracket"
+              src="./images/svg/svg-image-6.svg"
+              alt="오른쪽 꺽쇠"
+            />
           </button>
         </div>
         <div class="career-dashboard">
           <ul class="career-dashboard-list">
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span>채용공고</span>
+              <img src="./images/svg/icon/icon1.svg" /><span>채용공고</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
-                >이력서 관리</span
-              >
+              <img src="./images/svg/icon/icon2.svg" /><span>이력서 관리</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
-                >커리어 조회</span
-              >
+              <img src="./images/svg/icon/icon3.svg" /><span>커리어 조회</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span>지원 현황</span>
+              <img src="./images/svg/icon/icon4.svg" /><span>지원 현황</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
-                >커리어 코칭</span
-              >
+              <img src="./images/svg/icon/icon5.svg" /><span>커리어 코칭</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
+              <img src="./images/svg/icon/icon6.svg" /><span
                 >다음 커리어 찾기</span
               >
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
+              <img src="./images/svg/icon/icon7.svg" /><span
                 >나만의 회사 찾기</span
               >
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
-                >직군별 연봉</span
-              >
+              <img src="./images/svg/icon/icon8.svg" /><span>직군별 연봉</span>
             </li>
             <li>
-              <img src="./images/svg/svg-image-11.svg" /><span
+              <img src="./images/svg/icon/icon9.svg" /><span
                 >원티드 포인트</span
               >
             </li>
           </ul>
         </div>
         <div class="main-slide">
-          <span>모두가 주목하고 있어요!</span>
           <div class="maximum5-slide">
+            <span class="">모두가 주목하고 있어요!</span>
             <ul>
-              <li><img src="./images/49.webp" alt="" /></li>
-              <li><img src="./images/49.webp" alt="" /></li>
-              <li><img src="./images/49.webp" alt="" /></li>
-              <li><img src="./images/49.webp" alt="" /></li>
-              <li><img src="./images/49.webp" alt="" /></li>
+              <li>
+                <img src="./images/49.webp" alt="배너 이미지" />
+                <div class="maximum5-slide-text">
+                  <span>합격보상금 100만원</span>
+                  <img src="./images/svg/svg-image-19.svg" alt="북마크버튼" />
+                </div>
+                <div class="maximum5-slide-section">
+                  <div class="maximum5-slide-title">백엔드 엔지니어</div>
+                  <div class="maximum5-slide-contents">
+                    포스타입<br />서울 강남구 · 신입-경력 10년
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./images/49.webp" alt="" />
+                <div class="maximum5-slide-section">
+                  <div class="maximum5-slide-title">프론트엔드 엔지니어</div>
+                  <div class="maximum5-slide-contents">
+                    포스타입<br />서울 강남구 · 신입-경력 10년
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./images/49.webp" alt="" />
+                <div class="maximum5-slide-section">
+                  <div class="maximum5-slide-title">Backend Engineer</div>
+                  <div class="maximum5-slide-contents">
+                    티맵모빌리티<br />서울 중구 · 경력 2년 이상
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./images/49.webp" alt="" />
+                <div class="maximum5-slide-section">
+                  <div class="maximum5-slide-title">Software Engineer,Data</div>
+                  <div class="maximum5-slide-contents">
+                    당근마켓<br />서울 서초구 · 신입
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="./images/49.webp" alt="" />
+                <div class="maximum5-slide-section">
+                  <div class="maximum5-slide-title">
+                    [채널톡]Software Engineer
+                  </div>
+                  <div class="maximum5-slide-contents">
+                    채널코퍼레이션<br />서울 강남구 · 경력 1-10년
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
           <div class="second-slide">두번째 슬라이드</div>

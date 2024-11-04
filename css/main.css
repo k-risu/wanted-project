@@ -1,65 +1,129 @@
 .main {
-  max-width: 1400px;
-  margin: 0px auto;
   display: flex;
+  width: 100%;
   justify-content: center;
 }
 .main-layout {
+  width: 1400px;
+  margin: 0px auto;
 }
 .main-top-login {
+  display: flex;
+  /* width: 100%; */
   height: 58px;
 
   margin-top: 36px;
-  margin-bottom: 60px;
-  display: flex;
+  margin-bottom: 53px;
   justify-content: center;
 }
 .main-login-bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px 16px;
+  margin: 0 20px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
   background-color: #f9fafa;
   cursor: pointer;
-  margin: 0 20px;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 13px;
-  font-size: 15px;
-  font-family: Pretendard-Regular;
+  border-radius: 12px;
+}
+.main-login-bt span {
+  color: #2c69ff;
+}
+.bear {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  margin-left: 3px;
+}
+.right-angle-bracket {
+  width: 10px;
+  height: 20px;
+  margin: 5px;
+  margin-left: 10px;
 }
 .career-dashboard {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .career-dashboard-list {
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: 40px;
+  /* gap: 55px; */
 }
 .career-dashboard-list li {
   display: flex;
+  width: 116px;
+  height: 94px;
+  color: #8a8a8d;
+  font-size: 13px;
+  font-weight: 430;
+  letter-spacing: 0.0194em;
   flex-direction: column;
   align-items: center;
 }
 .career-dashboard-list li img {
-  height: 56px;
   width: 56px;
+  height: 56px;
+  margin-bottom: 8px;
 }
 .main-slide {
   /* justify-content: center; */
 }
-.main-slide span {
+.main-slide > span {
   display: flex;
+  font-weight: 650;
   font-size: 22px;
-  padding-bottom: 26px;
+  padding-bottom: 20px;
 }
 
 .maximum5-slide {
 }
+
 .maximum5-slide ul {
   display: flex;
   list-style: none;
   gap: 20px;
 }
-.maximum5-slide ul li img {
-  height: 167.5px;
+.maximum5-slide ul li {
+  display: block;
+  position: relative;
+}
+.maximum5-slide ul > li > img {
   width: 250px;
+  height: 167px;
   border-radius: 10px;
+}
+.maximum5-slide-text {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+
+  z-index: 1;
+}
+.maximum5-slide-text img {
+  width: 24px;
+  height: 24px;
+}
+.maximum5-slide-text > span {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: #fcfcfc;
+  font-size: 14px;
+  font-weight: 600;
+}
+.maximum5-slide-section {
+}
+.maximum5-slide-title {
+  font-size: 16px;
+}
+.maximum5-slide-contents {
 }
