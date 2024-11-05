@@ -62,8 +62,7 @@
 }
 .right-user-menu span:hover {
   background-color: #f8f8f8;
-
-  /* border-radius: 20px; */
+  border-radius: 30px;
 }
 .auth-form {
   padding: 8px 14px;

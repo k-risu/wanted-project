@@ -15,12 +15,19 @@
   margin: 0px;
   box-sizing: border-box;
   /* outline-style: none; */
+  transition: all 0.3s;
 }
 button {
   font-family: Pretendard Variable, Pretendard JP Variable, -apple-system,
     system-ui, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial,
     Apple SD Gothic Neo, Nanum Gothic, Malgun Gothic, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 body {
