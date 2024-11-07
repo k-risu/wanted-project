@@ -1,0 +1,97 @@
+.footer {
+  border-top: 1px solid #ebebeb;
+}
+.footer-layout {
+  /* display: flex; */
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.footer-top {
+  margin-top: 47px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.company-logo {
+  width: 112px;
+  height: 32px;
+}
+.company-information ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 32px;
+  margin-bottom: 35px;
+}
+.company-information ul li a {
+  color: #171719;
+}
+.footer-main {
+  margin-bottom: 42px;
+}
+.company-address {
+  color: #858588;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 34px;
+}
+.company-text {
+  display: flex;
+  font-size: 13px;
+  font-weight: 450;
+}
+.bar {
+  margin: 0 10px;
+  /* display: flex; */
+  color: #e9e9eb;
+}
+.company-inquiry ul {
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+}
+.company-inquiry ul {
+  display: flex;
+  gap: 24px;
+}
+.company-inquiry ul li a {
+  color: #717172;
+}
+.footer-botton {
+  width: 100%;
+}
+.footer-line {
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 25px;
+}
+.footer-copy {
+  font-size: 13px;
+  font-weight: 450;
+  color: #858588;
+}
+.footer-botton {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.company-sns {
+  display: flex;
+  gap: 10px;
+}
+.company-sns a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.company-sns a:hover {
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+.company-sns a img {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,50 @@
+.maximum4-slide {
+}
+.maximum4-slide > span {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.maximum4-slide ul {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 69px;
+}
+.maximum4-slide-img {
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #e8e8ea;
+  overflow: hidden;
+}
+.maximum4-slide-img:hover img {
+  transform: scale(1.02);
+}
+.maximum4-slide-img img {
+  display: block;
+  width: 340px;
+  height: 260px;
+}
+.maximum4-slide-img span {
+  text-decoration: none;
+}
+.maximum4-slide-section {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.maximum4-slide-title {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  color: #171719;
+}
+.maximum4-slide-contents {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #959598;
+}

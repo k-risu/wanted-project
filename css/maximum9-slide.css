@@ -1,0 +1,68 @@
+.maximum9-slide > span {
+  display: flex;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #171719;
+  margin-bottom: 25px;
+}
+.maximum9-slide > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 70px;
+}
+.maximum9-slide > ul > li {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.33% - 25px);
+  position: relative;
+  /* justify-content: center; */
+}
+.maximum9-slide > ul > li:hover .maximum9-slide-img img {
+  transform: scale(1.02);
+}
+.maximum9-slide > ul > li:hover .bookmark {
+  display: block;
+}
+.maximum9-slide > ul > li > a {
+  display: flex;
+}
+.maximum9-slide-img {
+  overflow: hidden;
+  border-radius: 9px;
+}
+.maximum9-slide-img img {
+  height: 90px;
+  width: 120px;
+  border-radius: 9px;
+}
+.maximum9-slide-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 14px;
+}
+.maximum9-slide-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171719;
+
+  display: block;
+  margin-bottom: 2px;
+}
+.maximum9-slide-contents {
+  font-size: 13px;
+  display: block;
+  color: #868689;
+}
+.bookmark {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 9px;
+  margin-top: 35px;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
