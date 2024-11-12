@@ -7,6 +7,7 @@
   font-weight: 650;
   font-size: 22px;
   padding-bottom: 20px;
+  color: #000000;
 }
 
 .maximum5-slide ul {
@@ -83,4 +84,10 @@
 .maximum5-slide-contents {
   color: #858588;
   font-weight: 500;
+}
+@media screen and (max-width: 1599px) {
+  .maximum5-slide > ul > li:nth-child(5) {
+    /* overflow: hidden; */
+    display: none;
+  }
 }
