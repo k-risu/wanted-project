@@ -68,6 +68,7 @@
   display: none;
 }
 @media screen and (max-width: 1599px) {
-  .maximum9-slide ul :nth-child(n+7) {
+  .maximum9-slide ul :nth-child(n + 7) {
     display: none;
   }
+}
