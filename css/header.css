@@ -43,6 +43,14 @@
   gap: 40px;
 }
 
+.search-mb {
+  display: none !important;
+}
+
+.menu-bt {
+  display: none !important;
+}
+
 .right-user-menu {
   display: flex;
   align-items: center;
@@ -134,11 +142,25 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .right-user-menu {
+  }
+  .header {
+    border-bottom: none;
+  }
   .auth-form {
     display: none;
   }
   .mb-auth-form {
     display: block;
+  }
+  .search {
+    display: none !important;
+  }
+  .search-mb {
+    display: flex !important;
+  }
+  .menu-bt {
+    display: flex !important;
   }
 }
 @media screen and (max-width: 991px) {

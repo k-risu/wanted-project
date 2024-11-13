@@ -7,15 +7,16 @@
   margin-bottom: 25px;
 }
 .maximum9-slide > ul {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1fr);
   gap: 25px;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
 }
 .maximum9-slide > ul > li {
   display: flex;
-  flex-direction: column;
-  width: calc(33.33% - 25px);
+  /* flex-direction: column; */
+  /* width: calc(33.33% - 25px); */
   position: relative;
   /* justify-content: center; */
 }
@@ -66,3 +67,7 @@
   height: 24px;
   display: none;
 }
+@media screen and (max-width: 1599px) {
+  .maximum9-slide ul :nth-child(n+7) {
+    display: none;
+  }

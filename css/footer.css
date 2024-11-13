@@ -1,14 +1,14 @@
 .footer {
   border-top: 1px solid #ebebeb;
-  margin: 0px auto;
-  max-width: 1400px;
 }
 .footer-layout {
+  max-width: 1400px;
+  margin: 0px auto;
   /* display: flex; */
   /* margin: 0 calc(5% - 10px); */
 }
 .footer-top {
-  margin-top: 47px;
+  margin-top: 43px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -63,6 +63,7 @@
   width: 100%;
 }
 .footer-line {
+  width: 100%;
   display: flex;
   border-bottom: 1px solid #f2f2f2;
   margin-bottom: 25px;
@@ -95,4 +96,9 @@
 .company-sns a img {
   width: 20px;
   height: 20px;
+}
+@media screen and (max-width: 1599px) {
+  .footer {
+    /* max-width: 1060px; */
+  }
 }
