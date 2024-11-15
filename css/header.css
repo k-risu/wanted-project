@@ -144,8 +144,11 @@
 @media screen and (max-width: 992px) {
   .right-user-menu {
   }
+  .right-user-menu span {
+    margin-right: 0px;
+  }
   .header {
-    border-bottom: none;
+    /* border-bottom: none; */
   }
   .auth-form {
     display: none;

@@ -37,7 +37,10 @@
   cursor: pointer;
   border-radius: 12px;
 }
-.main-login-bt span {
+.login-text {
+  display: flex;
+}
+.login-first-text span {
   color: #2c69ff;
 }
 .bear {
@@ -144,7 +147,28 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .main-layout {
+    width: 95%;
+  }
+
   .career-dashboard-list > li:nth-child(5) {
     display: none;
+  }
+  .main-top-login {
+    /* width: 100%; */
+  }
+  .main-login-bt {
+    display: flex;
+    width: 90vw;
+    /* justify-content: left; */
+    /* padding: 100px 100px; */
+  }
+  .login-text {
+    /* display: ;
+    justify-content: flex-start; */
+  }
+  .right-angle-bracket {
+    margin-left: auto;
+    /* justify-content: space-between; */
   }
 }
